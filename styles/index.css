@@ -1,0 +1,36 @@
+.login {
+    
+    border: 1px solid #dae1e6;
+    background-color: #f7f9fa;
+    width: 350px;
+    display: flex; flex-flow: column nowrap;
+    padding: 16px 16px 12px;
+    margin: 100px auto;
+    
+}
+.login p {
+    font-size: 0.75rem;
+    line-height: 2.0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.login button {
+    background-color: #19ce60;
+    color: #fff;
+    font-size: 1.375rem;
+    display: inline-block;
+    padding: 15px 0;
+    margin: 16px 0 12px;
+    border: none;
+}
+.login .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login .bottom .left {}
+.login .bottom .left a {
+    font-size: 0.75rem;
+}
+.login .bottom > a {
+    font-size: 0.75rem;
+}
