@@ -1,48 +1,20 @@
-#lang {}
-#lang option {}
-form {
-    width: 460px;
-    margin: 0 auto;
-}
-form > a {
-    display: block;
-    text-align: center;
-    margin: 30px 0;
-}
-form a img {}
-form fieldset {
-    display: flex; flex-flow: column nowrap;
-    border: none;
-}
-form fieldset .user_id {
-    padding: 20px 15px;
-    border: 1px solid #ccc;
-}
-form fieldset .user_pwd {
-    padding: 20px 15px;
-    border: 1px solid #ccc;
-}
-form fieldset .login {
-    background-color: #03c75a;
-    color: #fff;
-    padding: 25px 0;
-    border: none;
-}
-form .bottom {
-    display: flex;
-    justify-content: space-between;
-}
-form .bottom p {}
-form .bottom .right {}
-form .bottom .right a {}
-form .bottom .right a em {
-    color: #03c75a;
-}
-form .id_pwd_join {
-    border-top: 1px solid #aaa;
-    text-align: center;
-}
-form .id_pwd_join a {}
+.loginFrm {}
+.loginFrm #lang {}
+.loginFrm #lang option {}
+.loginFrm #h1 {}
+.loginFrm #h1 a {}
+.loginFrm #h1 a img {}
+.loginFrm fieldset {}
+.loginFrm fieldset .user_id {}
+.loginFrm fieldset .user_pwd {}
+.loginFrm fieldset .login {}
+.loginFrm .bottom {}
+.loginFrm .bottom p {}
+.loginFrm .bottom .right {}
+.loginFrm .bottom .right a {}
+.loginFrm .bottom .right a em {}
+.loginFrm .id_pwd_join {}
+.loginFrm .id_pwd_join a {}
 
 /* footer */
 footer {}
