@@ -1,36 +1,20 @@
 .login {
-    
-    border: 1px solid #dae1e6;
+    width: 350px; margin: 100px auto; padding: 16px 16px 12px;
     background-color: #f7f9fa;
-    width: 350px;
-    display: flex; flex-flow: column nowrap;
-    padding: 16px 16px 12px;
-    margin: 100px auto;
-    
+    border: 1px solid #dae1e6;
+    font-family: 'Noto Sans KR'
 }
-.login p {
-    font-size: 0.75rem;
-    line-height: 2.0;
-    font-family: 'Nanum Gothic', sans-serif;
-}
-.login button {
-    background-color: #19ce60;
-    color: #fff;
-    font-size: 1.375rem;
-    display: inline-block;
-    padding: 15px 0;
-    margin: 16px 0 12px;
-    border: none;
+.login p {font-size: 0.75rem;}
+.login > a {
+    width: 316px; margin: 16px 0 12px; padding: 15px 0;
+    display: block; text-align: center;
+    background-color: #19ce60; color: #fff;
+    font-size: 1.063rem; font-weight: 700;
 }
 .login .bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; justify-content: space-between;
 }
 .login .bottom .left {}
-.login .bottom .left a {
-    font-size: 0.75rem;
-}
-.login .bottom > a {
-    font-size: 0.75rem;
-}
+.login .bottom .left a {font-size: 0.75rem;}
+.login .bottom .right {}
+.login .bottom .right a {font-size: 0.75rem;}

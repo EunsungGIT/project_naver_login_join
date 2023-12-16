@@ -1,0 +1,83 @@
+body {background-color: #f5f6f7;}
+.clause {
+    width: 768px; margin: 0 auto;
+    font-family: 'Noto Sans KR';
+}
+.clause .lang {text-align: right;}
+.clause .lang #lang_sel {
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+}
+.clause .lang #lang_sel option {}
+.clause #clauseFrm {
+    width: 460px; margin: 0 auto;
+}
+.clause #clauseFrm fieldset {border: none;}
+.clause #clauseFrm fieldset h1 {margin: 30px 0; text-align: center;}
+.clause #clauseFrm fieldset h1 a {}
+.clause #clauseFrm fieldset h1 a img {}
+.clause #clauseFrm fieldset p {
+    
+}
+.clause #clauseFrm fieldset p input {}
+.clause #clauseFrm fieldset p .fa-square-check {}
+.clause #clauseFrm fieldset .first {}
+.clause #clauseFrm fieldset .first h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.clause #clauseFrm fieldset .first h2 input {}
+.clause #clauseFrm fieldset .first h2 .fa-square-check {}
+.clause #clauseFrm fieldset .first h2 em {color: #08a600;}
+.clause #clauseFrm fieldset .first p {font-size: 0.75rem;}
+.clause #clauseFrm fieldset .first p em {}
+.clause #clauseFrm fieldset .second {}
+.clause #clauseFrm fieldset .second .title_child {
+    margin-bottom: 20px;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.clause #clauseFrm fieldset .second .title_child h2 {font-weight: 700;}
+.clause #clauseFrm fieldset .second .title_child h2 input {}
+.clause #clauseFrm fieldset .second .title_child h2 .fa-square-check {}
+.clause #clauseFrm fieldset .second .title_child h2 em {color: #08a600;}
+.clause #clauseFrm fieldset .second .title_child button {
+    padding: 7px 10px;
+    background-color: #fff; color: #08a600; border: 1px solid #08a600;
+    font-size: 0.75rem;
+}
+.clause #clauseFrm fieldset .second p {font-size: 0.75rem;}
+.clause #clauseFrm fieldset .second p em {}
+.clause #clauseFrm fieldset .third {}
+.clause #clauseFrm fieldset .third h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.clause #clauseFrm fieldset .third h2 input {}
+.clause #clauseFrm fieldset .third h2 .fa-square-check {}
+.clause #clauseFrm fieldset .third h2 em {}
+.clause #clauseFrm fieldset .third p {font-size: 0.75rem;}
+.clause #clauseFrm fieldset .third p em {}
+.clause #clauseFrm fieldset .btn {
+    display: flex; justify-content: space-between;
+    margin-bottom: 20px;
+}
+.clause #clauseFrm fieldset .btn .user_cancel {
+    width: 225px; padding: 20px 0;
+    border: none; background-color: #08a600; color: #fff;
+}
+.clause #clauseFrm fieldset .btn .user_check {
+    width: 225px; padding: 20px 0;
+    border: none; background-color: #8e8e8e; color: #fff;
+}
+.clause #clauseFrm fieldset p {}
+.clause #clauseFrm fieldset > p:nth-of-type(1) {
+    margin-bottom: 30px;
+    font-size: 0.875rem; font-weight: 700;
+    text-decoration: underline;
+}
+.clause #clauseFrm fieldset > p:nth-of-type(2) {
+    font-size: 0.75rem; text-align: center;
+}
+.clause #clauseFrm fieldset > p:nth-of-type(2) a {
+    text-decoration: underline; font-size: 0.75rem;
+}

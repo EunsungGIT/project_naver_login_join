@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>네이버 | 회원가입</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/law.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    
+    <section class="clause">
+        <div class="lang">
+            <select name="lang" id="lang_sel"> 
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+        <form action="#" method="post" id="clauseFrm">
+            <fieldset>
+                <legend class="skip"></legend>
+                <h1><a href="./index.html"><img src="./images/logo.jpg" alt=""></a></h1>
+                <p>
+                    <input type="checkbox">
+                    <i class="fa-solid fa-square-check"></i>
+                    이용약관, 개인정보 수집 및 이용, 위치정보 이용약관(선택), 프로모션 안내 메일 수신(선택)에 모두 동의합니다.
+                </p>
+                <div class="first">
+                    <h2><input type="checkbox">
+                        <i class="fa-solid fa-square-check"></i>
+                        네이버 이용약관 동의<em>(필수)</em></h2>
+                    <p>
+                        <em>여러분을 환영합니다.</em>
+                        네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                    </p>
+                    <p>
+                        네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                    </p>
+                </div>
+                <div class="second">
+                    <div class="title_child">
+                        <h2><input type="checkbox">
+                            <i class="fa-solid fa-square-check"></i>
+                            개인정보 수집 및 이용에 대한 안내<em>(필수)</em></h2>
+                        <button type="button">어린이용 안내</button>
+                    </div>
+                    <p>
+                        <em>여러분을 환영합니다.</em>
+                        네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                    </p>
+                    <p>
+                        네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                    </p>
+                </div>
+                <div class="third">
+                    <h2><input type="checkbox">
+                        <i class="fa-solid fa-square-check"></i>
+                        위치정보 이용약관 동의<em>(선택)</em></h2>
+                    <p>
+                        <em>여러분을 환영합니다.</em>
+                        네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                    </p>
+                    <p>
+                        네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.
+                    </p>
+                </div>
+                <div class="btn">
+                    <button type="button" value="cancel" class="user_cancel">취소</button>
+                    <button type="button" value="check" class="user_check" onclick="location.href='join.html'">확인</button>
+                </div>
+                <p>회사, 동아리 등 단체에서 사용할 ID가 필요하세요? <a href="#">단체 회원 가입</a></p>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <section class="info">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">책임의 한계와 법적고지</a>
+            <a href="#">회원정보 고객센터</a>
+        </section>
+        <p class="copyright">
+            NAVER Copyright &copy; NAVER Corp. All Rights Reserved.
+        </p>
+    </footer>
 </body>
 </html>

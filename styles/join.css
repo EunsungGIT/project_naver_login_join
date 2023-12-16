@@ -1,0 +1,75 @@
+body {background-color: #f5f6f7;}
+#joinFrm {
+    width: 460px; margin: 0 auto;
+    font-family: 'Noto Sans KR';
+}
+#joinFrm fieldset {border: none;}
+#joinFrm fieldset h1 {margin: 30px 0; text-align: center;}
+#joinFrm fieldset h1 a {}
+#joinFrm fieldset h1 a img {}
+#joinFrm fieldset dl {}
+#joinFrm fieldset dl dt {
+    padding: 10px 0;
+    font-size: 0.875rem; font-weight: 700;
+}
+#joinFrm fieldset dl dt em {
+    font-size: 0.875rem; font-weight: 400;
+}
+#joinFrm fieldset dl dd {
+    margin-bottom: 10px; padding: 10px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+#joinFrm fieldset dl dd input {
+    width: 100%; padding: 5px;
+    border: none;
+}
+#joinFrm fieldset dl dd select {
+    width: 100%; padding: 5px;
+    border: none;
+}
+#joinFrm fieldset dl dd .user_id {width: 329px;}
+#joinFrm fieldset dl dd .user_pwd {}
+#joinFrm fieldset dl dd .user_rpwd {}
+#joinFrm fieldset dl dd .user_name {}
+#joinFrm fieldset dl .user_birth {
+    background: none;
+    margin-bottom: 0; padding: 0;
+    border: 1px solid #eee;
+}
+#joinFrm fieldset dl .user_birth .user_year {width: 150px; padding: 15px;}
+#joinFrm fieldset dl .user_birth #user_month {width: 150px; padding: 15px;}
+#joinFrm fieldset dl .user_birth #user_month option {}
+#joinFrm fieldset dl .user_birth .user_day {width: 150px; padding: 15px;}
+#joinFrm fieldset dl dd .user_gender {}
+#joinFrm fieldset dl dd .user_gender option {}
+#joinFrm fieldset dl dd .user_email {}
+#joinFrm fieldset dl .tel {
+    background: none;
+    margin-bottom: 0; padding: 0;
+    border: 1px solid #eee;
+}
+#joinFrm fieldset dl .tel #user_tel_first {
+    margin-bottom: 10px; padding: 15px;
+}
+#joinFrm fieldset dl .tel .certified {
+    display: flex; justify-content: space-between;
+    margin-bottom: 10px;
+}
+#joinFrm fieldset dl .tel .certified .user_tel {width: 336px;}
+#joinFrm fieldset dl .tel .certified .certified_btn {
+    width: 115px; height: 53px;
+    font-size: 0.75rem; border: none;
+    background-color: #03c75a; color: #fff;
+}
+#joinFrm fieldset dl .tel .user_certified {
+    margin-bottom: 10px; padding: 15px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+}
+#joinFrm fieldset .join_sub {
+    width: 460px; height: 70px;
+    font-size: 1.2em; font-weight: 700;
+    border: none;
+    background-color: #03c75a; color: #fff;
+}
