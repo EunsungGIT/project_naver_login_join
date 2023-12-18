@@ -35,10 +35,17 @@ body {background-color: #f5f6f7;}
     padding-bottom: 20px; margin-bottom: 20px;
 }
 .login #loginFrm fieldset .bottom .left {}
-.login #loginFrm fieldset .bottom .left .keep_login {}
-.login #loginFrm fieldset .bottom .left .keep_login .fa-square-check {}
+.login #loginFrm fieldset .bottom .left #keep_login {appearance: none;}
+.login #loginFrm fieldset .bottom .left #keep_login + label::before {content: '\f14a'; color: #aaa;}
+.login #loginFrm fieldset .bottom .left #keep_login:checked + label::before {color: #000;}
 .login #loginFrm fieldset .bottom .right {}
 .login #loginFrm fieldset .bottom .right a {}
+.login #loginFrm fieldset .bottom .right a::after {
+    content: ''; background-color: #aaa;
+    display: inline-block;
+    width: 1px; height: 8px; margin: 0 5px;
+}
+.login #loginFrm fieldset .bottom .right a:last-child::after {background: none; margin: 0;}
 .login #loginFrm fieldset .bottom .right a:last-child {text-decoration: underline;}
 .login #loginFrm fieldset .bottom .right a em {
     color: #03c75a;
@@ -54,3 +61,4 @@ body {background-color: #f5f6f7;}
 .login #loginFrm fieldset .id_pwd_join a:last-child::after {
     background: none; margin: 0;
 }
+

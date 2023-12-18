@@ -16,50 +16,76 @@ body {background-color: #f5f6f7;}
 .clause #clauseFrm fieldset h1 {margin: 30px 0; text-align: center;}
 .clause #clauseFrm fieldset h1 a {}
 .clause #clauseFrm fieldset h1 a img {}
-.clause #clauseFrm fieldset p {
-    
-}
-.clause #clauseFrm fieldset p input {}
-.clause #clauseFrm fieldset p .fa-square-check {}
+.clause #clauseFrm fieldset > p {}
+.clause #clauseFrm fieldset > p #clause_one {appearance: none;}
+.clause #clauseFrm fieldset > p .fa {text-decoration: underline;}
+.clause #clauseFrm fieldset > p #clause_one + label::before {content: '\f14a'; color: #aaa;}
+.clause #clauseFrm fieldset > p #clause_one:checked + label::before {color: #000;}
 .clause #clauseFrm fieldset .first {}
 .clause #clauseFrm fieldset .first h2 {
     margin-bottom: 20px;
     font-weight: 700;
 }
-.clause #clauseFrm fieldset .first h2 input {}
-.clause #clauseFrm fieldset .first h2 .fa-square-check {}
-.clause #clauseFrm fieldset .first h2 em {color: #08a600;}
-.clause #clauseFrm fieldset .first p {font-size: 0.75rem;}
-.clause #clauseFrm fieldset .first p em {}
+.clause #clauseFrm fieldset .first h2 #clause_two {appearance: none;}
+.clause #clauseFrm fieldset .first h2 #clause_two + label::before {content: '\f14a'; color: #aaa;}
+.clause #clauseFrm fieldset .first h2 #clause_two:checked + label::before {color: #000;}
+.clause #clauseFrm fieldset .first > h2 em {color: #08a600;}
+.clause #clauseFrm fieldset .first p {font-size: 0.75rem; margin-bottom: 30px;}
+.clause #clauseFrm fieldset .first .text {
+    background-color: #fff;
+    padding: 10px;
+    width: 460px; height: 88px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
 .clause #clauseFrm fieldset .second {}
 .clause #clauseFrm fieldset .second .title_child {
     margin-bottom: 20px;
     display: flex; justify-content: space-between; align-items: center;
 }
 .clause #clauseFrm fieldset .second .title_child h2 {font-weight: 700;}
-.clause #clauseFrm fieldset .second .title_child h2 input {}
-.clause #clauseFrm fieldset .second .title_child h2 .fa-square-check {}
+.clause #clauseFrm fieldset .second .title_child h2 #clause_three {appearance: none;}
+.clause #clauseFrm fieldset .second .title_child h2 #clause_three + label::before {content: '\f14a'; color: #aaa;}
+.clause #clauseFrm fieldset .second .title_child h2 #clause_three:checked + label::before {color: #000;}
 .clause #clauseFrm fieldset .second .title_child h2 em {color: #08a600;}
 .clause #clauseFrm fieldset .second .title_child button {
     padding: 7px 10px;
     background-color: #fff; color: #08a600; border: 1px solid #08a600;
     font-size: 0.75rem;
 }
-.clause #clauseFrm fieldset .second p {font-size: 0.75rem;}
-.clause #clauseFrm fieldset .second p em {}
+.clause #clauseFrm fieldset .second p {font-size: 0.75rem; margin-bottom: 30px;}
+.clause #clauseFrm fieldset .second h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.clause #clauseFrm fieldset .second .text {
+    background-color: #fff;
+    padding: 10px;
+    width: 460px; height: 88px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
 .clause #clauseFrm fieldset .third {}
 .clause #clauseFrm fieldset .third h2 {
     margin-bottom: 20px;
     font-weight: 700;
 }
-.clause #clauseFrm fieldset .third h2 input {}
-.clause #clauseFrm fieldset .third h2 .fa-square-check {}
+.clause #clauseFrm fieldset .third h2 #clause_four {appearance: none;}
+.clause #clauseFrm fieldset .third h2 #clause_four + label::before {content: '\f14a'; color: #aaa;}
+.clause #clauseFrm fieldset .third h2 #clause_four:checked + label::before {color: #000;}
 .clause #clauseFrm fieldset .third h2 em {}
-.clause #clauseFrm fieldset .third p {font-size: 0.75rem;}
-.clause #clauseFrm fieldset .third p em {}
+.clause #clauseFrm fieldset .third p {font-size: 0.75rem; margin-bottom: 30px;}
+.clause #clauseFrm fieldset .third p h2 {}
 .clause #clauseFrm fieldset .btn {
     display: flex; justify-content: space-between;
     margin-bottom: 20px;
+}
+.clause #clauseFrm fieldset .third .text {
+    background-color: #fff;
+    padding: 10px;
+    width: 460px; height: 88px;
+    overflow-y: auto;
+    margin-bottom: 30px;
 }
 .clause #clauseFrm fieldset .btn .user_cancel {
     width: 225px; padding: 20px 0;
